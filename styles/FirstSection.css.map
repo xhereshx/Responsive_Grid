@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,gBAAgB,CAAC;EACf,WAAW,EAAE,GAAG;CACjB;;AACD,AAAA,sBAAsB,CAAC;EACrB,cAAc,EAAE,EAAE;CACnB;;AACD,AAAA,mBAAmB,CAAC;EAClB,WAAW,EAAE,EAAE;CAChB;;AACD,AAAA,QAAQ,CAAC;EACP,gBAAgB,EAAE,0BAA0B;EAC5C,KAAK,EAAE,IAAI;EAEX,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,aAAa;EAClC,KAAK,ECjBC,KAAK;EDkBX,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "FirstSection.scss",
+        "Variables.scss"
+    ],
+    "names": [],
+    "file": "FirstSection.css"
+}

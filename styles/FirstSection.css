@@ -1,0 +1,21 @@
+.carpark_padding {
+  padding-top: 10%;
+}
+
+.carpark_paddingBotton {
+  padding-bottom: 5%;
+}
+
+.carpark_paddingTop {
+  padding-top: 2%;
+}
+
+.carpark {
+  background-image: url(../img/automotive.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center bottom;
+  color: white;
+  text-align: center;
+}
+/*# sourceMappingURL=FirstSection.css.map */
