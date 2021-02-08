@@ -13,7 +13,21 @@
     />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
-  <style></style>
+  <style>
+    .partners {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    .partners_header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    @media only screen and (min-width: 580px) {
+      .partners_header {
+        font-size: 32px;
+      }
+    }
+  </style>
   <body>
     <div class="container">
       <div class="row carpark justify-content-center">
@@ -64,7 +78,8 @@
               <img src="./img/icon_watch.png" alt="hodiny" />
             </div>
             <div class="col-7 col-sm-9 col-lg-7">
-              Lose 80 minutes of personal free time
+              Lose <b class="parkingProblems--color">80 minutes</b> of personal
+              free time
             </div>
           </div>
 
@@ -73,7 +88,8 @@
               <img src="./img/icon_money_bag.png" alt="peníze" />
             </div>
             <div class="col-7 col-sm-9 col-lg-7">
-              Waste €25.75 on fuel & lost income
+              Waste <b class="parkingProblems--color">€25.75</b> on fuel & lost
+              income
             </div>
           </div>
 
@@ -82,7 +98,8 @@
               <img src="./img/icon_cloud.png" alt="co2" />
             </div>
             <div class="col-7 col-sm-9 col-lg-7">
-              Produce an extra 5 kg of CO2.
+              Produce an extra <b class="parkingProblems--color">5 kg</b> of
+              CO2.
             </div>
           </div>
         </div>
@@ -98,7 +115,8 @@
               <img src="./img/icon_hight_cost.png" alt="košík" />
             </div>
             <div class="col-10 col-sm-9 col-lg-10">
-              Paying <b>high costs</b> to install and maintain sensors.
+              Paying <b class="parkingProblems--color">high costs</b> to install
+              and maintain sensors.
             </div>
           </div>
 
@@ -107,7 +125,8 @@
               <img src="./img/icon_missing.png" alt="graf" />
             </div>
             <div class="col-10 col-sm-9 col-lg-10">
-              <b>Missing</b> centralised online statistics.
+              <b class="parkingProblems--color">Missing</b> centralised online
+              statistics.
             </div>
           </div>
 
@@ -116,9 +135,337 @@
               <img src="./img/icon_struggling.png" alt="peněžka" />
             </div>
             <div class="col-10 col-sm-9 col-lg-10">
-              <b>Struggling</b> with payments collection.
+              <b class="parkingProblems--color">Struggling</b> with payments
+              collection.
             </div>
           </div>
+        </div>
+      </div>
+      <div class="row solution">
+        <div class="col-12 solution_header">
+          <p>
+            <b>PARKING SOLUTIONS AND BENEFITS FOR</b>
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="row justify-content-center">
+              <div class="col-12 solution_sectionHeader">
+                <b class="solution--color">CITY & PARKING HOUSE OWNER</b>
+              </div>
+              <div class="col-12">
+                <img src="./img/benefits.png" alt="benefity" />
+              </div>
+              <div class="col-12 col-sm-6 col-lg-10">
+                <p>
+                  Fast rollout. No sensors in the streets. Total Cost of
+                  Ownership down to 10%. Parking statistics.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="row justify-content-center">
+              <div class="col-12 solution_sectionHeader">
+                <b class="solution--color">DRIVERS</b>
+              </div>
+              <div class="col-12">
+                <img src="./img/drivers.png" alt="benefity" />
+              </div>
+              <div class="col-12 col-sm-6 col-lg-10">
+                <p>
+                  Integration with public transport and other smart city
+                  systems.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="row justify-content-center">
+              <div class="col-12 solution_sectionHeader">
+                <b class="solution--color">AUTOMOTIVE</b>
+              </div>
+              <div class="col-12">
+                <img src="./img/automotive.png" alt="benefity" />
+              </div>
+              <div class="col-12 col-sm-6 col-lg-10">
+                <p>Better city traffic flow. Lower pollutions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row feature">
+        <div class="col-1 col-sm-3 col-lg-4 col-xl-6"></div>
+        <div class="col-9 col-sm-8 col-lg-7 col-xl-5">
+          <div class="row">
+            <div class="col-12">
+              <p class="feature_header"><b>APP FEATURES</b></p>
+            </div>
+
+            <div class="row feature_graydiv">
+              <div class="col-12 col-sm-6">
+                <div class="row">
+                  <div class="col-6">
+                    <img
+                      class="feature_picturesFirst"
+                      src="./img/icon_find.png"
+                      alt="vyhledání"
+                    />
+                  </div>
+                  <div class="col-6 align-self-center">FIND</div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="row">
+                  <div class="col-6">
+                    <img
+                      class="feature_picturesFirst"
+                      src="./img/icon_book.png"
+                      alt="kniha"
+                    />
+                  </div>
+                  <div class="col-6 align-self-center">BOOK</div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="row">
+                  <div class="col-6">
+                    <img
+                      class="feature_picture"
+                      src="./img/icon_navigate.png"
+                      alt="navigace"
+                    />
+                  </div>
+                  <div class="col-6 align-self-center">NAVIGATE</div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="row">
+                  <div class="col-6">
+                    <img
+                      class="feature_picture"
+                      src="./img/icon_pay.png"
+                      alt="placení"
+                    />
+                  </div>
+                  <div class="col-6 align-self-center">PAYD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+      <div class="row pyramid">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 concept_header">
+              <p><b>HOW ePARKOMAT WORKS</b></p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="row">
+                <div class="col-7">
+                  <img src="./img/pyramida.png" alt="pyramida" />
+                </div>
+                <div class="col-12 col-lg-10 col-xl-8">
+                  <p class="pyramid_textmargin">
+                    Algorithm predicts real-time parking situation with high
+                    accurary by monitoring the moving mobile devices within the
+                    mobile network. Other big data further increase the
+                    accurary.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-5">
+              <!-- col-md-4 -->
+              <p class="">
+                <b
+                  >Big data add value to customers, businesses and
+                  governments.</b
+                >
+              </p>
+
+              <div class="row pyramid_picturediv">
+                <div class="col-3 col-md-4 col-lg-3">
+                  <img src="./img/icon_parking.png" alt="icona_parkování" />
+                </div>
+                <div class="col-7 col-sm-8 col-lg-7">
+                  Navigation wherewe GSM is Data output for smart citites
+                  Booking & payments
+                </div>
+              </div>
+
+              <div class="row pyramid_picturediv">
+                <div class="col-3 col-md-4 col-lg-3">
+                  <img src="./img/icon_big_data.png" alt="big data" />
+                </div>
+                <div class="col-7 col-sm-8 col-lg-7">
+                  Big data analysis & prediction. Real-time analysis Exact data
+                  processing.
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-3 col-md-4 col-lg-3">
+                  <img src="./img/icon_telco.png" alt="telco" />
+                </div>
+                <div class="col-7 col-sm-8 col-lg-7">
+                  Telco data & connected cars Feedback from app City partners &
+                  parking houses
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row concept">
+        <div class="col-12">
+          <p class="concept_header"><b>PROOF OF CONCEPT PRAGUE Q4 - 2015</b></p>
+        </div>
+        <div class="col-12">
+          <!-- col-lg-10 -->
+          <div class="row justify-content-center">
+            <div class="col-lg-1"></div>
+            <div class="col-12 col-md-3 align-self-center">
+              <div class="row justify-content-center">
+                <div class="col-6 col-sm-4 col-md-12 col-lg-8">
+                  <img src="./img/icon_car.png" alt="auto" />
+                </div>
+                <div
+                  class="col-6 col-sm-8 col-md-12 concept_text align-self-center"
+                >
+                  <p>
+                    250 live testers Integration with connected cars solution
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="row justify-content-center">
+                <div class="col-12 col-sm-10 col-lg-10">
+                  <img src="./img/icon_prague.png" alt="Praha" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-3 align-self-center">
+              <div class="row justify-content-center">
+                <div class="col-6 col-sm-4 col-md-12 col-lg-8">
+                  <img src="./img/icon_accuracy.png" alt="navigace" />
+                </div>
+                <div
+                  class="col-6 col-sm-8 align-self-center concept_text col-md-12"
+                >
+                  Accuracy measured at 93.3% with a guaranteed parking spot
+                  within 250 m
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row partners">
+        <div class="col-12 partners_header">
+          <p><b>STRATEGIC DATA PARTNER FOR EUROPE</b></p>
+        </div>
+        <div class="col-12">
+          <div class="row ">
+            <div class="col-12 col-md-6">
+              <div class="row">
+                <div class="col-6">
+                  <div class="row">
+                    <div class="col-12">
+                      <img src="./img/logo_parkomedia.png" alt="parkování" /></div>
+                      <div class="col-12"> <p>Parking Systems</p></div>
+                    
+                  </div>
+                </div>
+                <div class="col-6 order-3">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                src="./img/logo_cityparking_group.png"
+                alt="městské parkování"
+              /></div>
+                      <div class="col-12"><p>Parking providers</p></div>
+                    </div>
+                  
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="row">
+                    <div class="col-6 col-md-12">
+                      <img src="./img/logo_atos.png" alt="atos" /></div>
+                      <div class="col-6"><img
+                src="./img/logo_altron.png"
+                alt="altron"
+                class="partners--altron"
+              /></div>
+                     <div class="col-12 col-md-12">
+                      Strategic partners for smart city initiatives
+                  </div>
+                </div>
+                <!-- <div class="col">
+                  <div class="row">
+                   
+                      <div class="col">x</div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+             <div class="col-12 col-md-6">
+              <div class="row">
+                <div class="col-6">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                class="partners__img"
+                src="./img/logo_mojio.png"
+                alt="mojio"
+              /></div>
+                      <div class="col-12"><p>Connected car & OEM´s</p></div>
+                    
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="row">
+                    <div class="col-12">
+                      <img src="./img/logo_car4way.png" alt="car4way" /></div>
+                      <div class="col-12"><p>Car sharing</p></div>
+                    
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="row">
+                    <div class="col-12">
+                      <img src="./img/logo_global_payments.png" alt="parkování" /></div>
+                      <div class="col-12"><p>Online payments</p></div>
+                    
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                src="./img/logo_europassistance.png"
+                alt="parkování"
+                class="partners__img"
+              /></div>
+                      <div class="col-12"><p>Car assistance</p></div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+       
         </div>
       </div>
     </div>

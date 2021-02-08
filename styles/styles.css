@@ -22,6 +22,7 @@
 .parkingProblems {
   text-align: center;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .parkingProblems_left {
@@ -36,12 +37,133 @@
   padding-bottom: 5%;
 }
 
+.parkingProblems--color {
+  color: #0000ff;
+}
+
 @media only screen and (min-width: 579px) {
   .parkingProblems_header {
     font-size: 32px;
   }
   .parkingProblems_sectionHeader {
     font-size: 16px;
+  }
+}
+
+.solution {
+  background-color: #e0e0e0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 579px) {
+  .solution_header {
+    font-size: 32px;
+  }
+  .solution_sectionHeader {
+    font-size: 16px;
+  }
+}
+
+.solution--color {
+  color: #0000ff;
+}
+
+.feature {
+  background-image: url(../img/app.png);
+  width: 100%;
+  min-height: 25rem;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.feature_header {
+  color: white;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.feature_graydiv {
+  background-color: #e0e0e0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem 0rem;
+  border-radius: 15px;
+}
+
+.feature_picture {
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 579px) {
+  .feature_picturesFirst {
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 580px) {
+  .feature_header {
+    font-size: 32px;
+    text-align: start;
+  }
+}
+
+.pyramid {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pyramid_header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pyramid_picturediv {
+  margin-bottom: 10px;
+}
+
+.pyramid_textmargin {
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 580px) {
+  .pyramid_header {
+    font-size: 32px;
+  }
+}
+
+.concept {
+  background-color: #0000ff;
+  width: 100%;
+  height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.concept_header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 580px) {
+  .concept_header {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .concept_text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 579px) {
+  .concept_pictures {
+    text-align: left;
   }
 }
 /*# sourceMappingURL=styles.css.map */

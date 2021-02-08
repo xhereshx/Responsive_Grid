@@ -1,6 +1,7 @@
 .parkingProblems {
   text-align: center;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .parkingProblems_left {
@@ -13,6 +14,10 @@
 
 .parkingProblems--paddingboton5 {
   padding-bottom: 5%;
+}
+
+.parkingProblems--color {
+  color: #0000ff;
 }
 
 @media only screen and (min-width: 579px) {
