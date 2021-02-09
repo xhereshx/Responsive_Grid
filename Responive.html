@@ -14,23 +14,49 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <style>
-    .partners {
-      padding-top: 2rem;
-      padding-bottom: 2rem;
+    .navbar{
+      width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
     }
-    .partners_header {
-      text-align: center;
-      margin-bottom: 2rem;
+    @media only screen and (max-width: 580px) {
+ .navbar--top{
+      margin-top: 1rem;
     }
-    @media only screen and (min-width: 580px) {
-      .partners_header {
-        font-size: 32px;
-      }
-    }
+}
+.navbar--nowrap{
+  white-space: nowrap;
+}
+.navbar_div{
+margin-top: 1rem;
+}
+    
   </style>
   <body>
     <div class="container">
-      <div class="row carpark justify-content-center">
+  <div class="row navbar">
+    <div class="col-12 col-lg-4"><img src="./img/logo.png" alt="Logo" class="LogoImg" /></div>
+   
+    <div class="col-12 navbar--top col-lg-8" >
+      
+        <div class="row justify-content-end">
+          <div class="col-12 col-sm-4 col-md-2"><a  href="#home"><h5>Home</h5></a></div>
+          <div class="col-12 col-sm-4 col-md-2" ><a  href="#solution"><h5>Solution</h5></a></div>
+          <div class="col-12 col-sm-4 col-md-2"><a  href="#solution"><h5>Benefits</h5></a></div>
+          <div class="col-12 col-sm-4 col-md-2"><a  href="#concept"><h5>Concept</h5></a></div>
+          <div class="col-12 col-sm-4 col-md-2"><a class="navbar--nowrap" href="#map"><h5>Road map</h5></a></div>
+          <div class="col-12 col-sm-4 col-md-2"><a  href="#partners"><h5>Partners</h5></a></div>
+        </div>
+        
+        
+        
+        
+       
+        
+      
+    </div>
+  </div>
+      <div class="row carpark justify-content-center"id="home">
         <div class="col col-10 carpark_padding">
           <p class="d-lg-none">
             TO BECOME THE WORLD´S LEADING PARKING PROVIDER WITHNOUT OWNING A
@@ -141,7 +167,7 @@
           </div>
         </div>
       </div>
-      <div class="row solution">
+      <div class="row solution" id="solution">
         <div class="col-12 solution_header">
           <p>
             <b>PARKING SOLUTIONS AND BENEFITS FOR</b>
@@ -257,7 +283,7 @@
         </div>
         <div class="col-sm-1"></div>
       </div>
-      <div class="row pyramid">
+      <div class="row pyramid" id="map">
         <div class="col-12">
           <div class="row">
             <div class="col-12 concept_header">
@@ -324,7 +350,7 @@
           </div>
         </div>
       </div>
-      <div class="row concept">
+      <div class="row concept" id="concept">
         <div class="col-12">
           <p class="concept_header"><b>PROOF OF CONCEPT PRAGUE Q4 - 2015</b></p>
         </div>
@@ -370,13 +396,13 @@
           </div>
         </div>
       </div>
-      <div class="row partners">
+      <div class="row partners" id="partners">
         <div class="col-12 partners_header">
           <p><b>STRATEGIC DATA PARTNER FOR EUROPE</b></p>
         </div>
         <div class="col-12">
           <div class="row ">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 col-lg-5 partners_center partners--paddingbotton">
               <div class="row">
                 <div class="col-6">
                   <div class="row">
@@ -386,7 +412,7 @@
                     
                   </div>
                 </div>
-                <div class="col-6 order-3">
+                <div class="col-6 order-md-3 partners_providers">
                   <div class="row">
                     <div class="col-12">
                       <img
@@ -404,7 +430,7 @@
                       <div class="col-6"><img
                 src="./img/logo_altron.png"
                 alt="altron"
-                class="partners--altron"
+                
               /></div>
                      <div class="col-12 col-md-12">
                       Strategic partners for smart city initiatives
@@ -419,17 +445,26 @@
                 </div>
               </div>
             </div>
-             <div class="col-12 col-md-6">
+             <div class=" d-none d-lg-block col-lg-2"></div>
+             <div class="col-12 col-md-6 col-lg-5 partners_center">
               <div class="row">
                 <div class="col-6">
                   <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 " >
                       <img
                 class="partners__img"
                 src="./img/logo_mojio.png"
                 alt="mojio"
               /></div>
-                      <div class="col-12"><p>Connected car & OEM´s</p></div>
+                      <div class="col-12 " ><p>Connected car & OEM´s</p></div>
+                    
+                  </div>
+                </div>
+                  <div class="col-6">
+                  <div class="row">
+                    <div class="col-12">
+                      <img src="./img/logo_global_payments.png" alt="parkování" /></div>
+                      <div class="col-12"><p>Online payments</p></div>
                     
                   </div>
                 </div>
@@ -441,14 +476,7 @@
                     
                   </div>
                 </div>
-                <div class="col-6">
-                  <div class="row">
-                    <div class="col-12">
-                      <img src="./img/logo_global_payments.png" alt="parkování" /></div>
-                      <div class="col-12"><p>Online payments</p></div>
-                    
-                  </div>
-                </div>
+              
                 <div class="col-6">
                   <div class="row">
                     <div class="col-12">
@@ -467,7 +495,73 @@
           </div>
        
         </div>
+        <div class="row team justify-content-center">
+          <div class="col-12 team_header justify-content-center "><b>TEAM</b></div>
+          <div class="col-12 ">
+            <div class="row justify-content-center">
+              <div class="col-12 team--paddingbotton col-xl-4 col-sm-8">
+                <div class="row">
+                  <div class="col-12"><p class="team_text">Pavel Vrba | CEO</p> <p>author | co-founder</p></div>
+                  <div class="col-12"><img
+            src="./img/pavel_vrba.png"
+            alt="Pavel Vrba"
+            
+          /></div>
+                  <div class="col-12 "><p>business development, Partnering, Business strategy,
+              Sales,Marketing, Product</p></div>
+              
+                  <div class="col-12"><p class="team_text">+420 603 416 778</p></div>
+                  <div class="col-12"><p >pavel@eparkomat.com</p></div>
+                  <div class="col-12"><p>University of Economics in PRAGUE 8 years at Telekom (T-mobile,
+              T-Systems)</p></div>
+                </div>
+              </div>
+              <div class="col-12 team--paddingbotton col-xl-4"><img src="./img/team.png" alt="team" /></div>
+              <div class="col-12 col-xl-4 col-sm-8">
+                  <div class="row justify-content-center">
+                  <div class="col-12"> <p class="team_text">Petr Hais | CTO</p>
+            <p>co-founder</p></div>
+                  <div class="col-12"><img
+            src="./img/petr_hais.png"
+            alt="Pavel Vrba"
+           
+          /></div>
+                  <div class="col-12"><p>R&D, Operations, Architecture, IT Strategy</p></div>
+                  <div class="col-12"> <p class="team_text">+420 603 400 785</p></div>
+                  <div class="col-12"> <p>petr@eparkomat.com </p></div>
+                  <div class="col-12">  <p>
+              Graduated from CTU Telecommunications and Informatics 15+ years in
+              Telecommunications
+            </p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row footer">
+      
+      <div class="col-12 col-sm-6 col-lg-7  footer--paddingbotton ">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10"><p>Contact: <br />info@eparkomat.com</p></div>
+          <div class="col-12 col-md-10"><img class="backGround__image" src="./img/logo_csp.png" alt="logo" /></div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-5 col-lg-4 ">
+        <div class="row justify-content-center justify-content-md-end " >
+          <!-- style="text-align: center;" -->
+          <!-- <div class="col-5"></div> -->
+          <div class="col-2 col-lg-2"><img src="./img/logo_in.png" alt="logo linked in" /></div>
+          <div class="col-2 col-lg-2"><img src="./img/logo_twitter.png" alt="logo twitter" /></div>
+          <div class="col-2 col-lg-2"><img src="./img/logo_facebook.png" alt="logo facebook" /></div></div>
+        <div class="row justify-content-center justify-content-md-end "><div class="col-6" ><img src="./img/logo_eparkomat_bile.png" alt="logo" /></div></div>
+      </div>
+      
+    </div>
+    
+ 
       </div>
     </div>
   </body>
+  
 </html>
