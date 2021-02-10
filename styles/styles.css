@@ -72,6 +72,10 @@
   color: #0000ff;
 }
 
+.solution_img {
+  border: 1px solid #0000ff;
+}
+
 .feature {
   background-image: url(../img/app.png);
   width: 100%;
@@ -129,6 +133,10 @@
   margin-top: 10px;
 }
 
+.pyramid--textpadding {
+  padding-top: 1rem;
+}
+
 @media only screen and (min-width: 580px) {
   .pyramid_header {
     font-size: 32px;
@@ -175,6 +183,10 @@
 .partners_header {
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.partners_Atos {
+  text-align: left;
 }
 
 @media only screen and (min-width: 580px) {

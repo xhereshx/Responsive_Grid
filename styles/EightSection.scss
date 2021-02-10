@@ -1,12 +1,12 @@
 @import "Variables";
 
 .team {
-  background-color: #0000ff;
+  background-color: $blue;
   width: 100%;
   height: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: white;
+  color: $white;
   text-align: center;
 }
 .team_header {
@@ -16,7 +16,7 @@
 
 @media only screen and (min-width: 580px) {
   .team_header {
-    font-size: 32px;
+    font-size: $MainHeader;
   }
 }
 @media only screen and (max-width: 767px) {

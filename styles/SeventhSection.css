@@ -8,6 +8,10 @@
   margin-bottom: 2rem;
 }
 
+.partners_Atos {
+  text-align: left;
+}
+
 @media only screen and (min-width: 580px) {
   .partners_header {
     font-size: 32px;
