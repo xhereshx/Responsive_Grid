@@ -12,7 +12,6 @@
 
 .carpark {
   background-image: url(../img/automotive.png);
-  width: 100%;
   background-size: cover;
   background-position: center bottom;
   color: white;

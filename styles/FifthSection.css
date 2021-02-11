@@ -25,4 +25,14 @@
     font-size: 32px;
   }
 }
+
+.pyramid_background {
+  background-image: url(../img/pyramida.png);
+  width: 350px;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: center bottom; */
+  text-align: left;
+}
 /*# sourceMappingURL=FifthSection.css.map */
